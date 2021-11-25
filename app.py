@@ -7,7 +7,7 @@ def hello_world():
     return 'Hey, we have Flask in a Docker container!'
 
 
-if __name == '__main__':
+if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
     #app.run(port=8080,host='0.0.0.0')
 
